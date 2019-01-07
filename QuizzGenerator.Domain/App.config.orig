@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+  </configSections>
+  <entityFramework>
+    <defaultConnectionFactory type="System.Data.Entity.Infrastructure.SqlConnectionFactory, EntityFramework" />
+    <providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+    </providers>
+  </entityFramework>
+  <connectionStrings>  
+<<<<<<< HEAD
+    <!--<add name="ConnectionString" connectionString="Data Source=UTILISA-0Q848KU\SQLEXPRESS;Initial Catalog=QuizzDatabase;Integrated Security=True;" providerName="System.Data.SqlClient" />-->  <!-- Jonathan-->
+=======
+    <!--<add name="ConnectionString" connectionString="Data Source=UTILISA-0Q848KU\SQLEXPRESS;Initial Catalog=QuizzDatabase;Integrated Security=True;" providerName="System.Data.SqlClient" />--> <!-- Jonathan-->
+>>>>>>> bd954fc67ec5536b8855b527cae11337de1e5f34
+    <!-- <add name="ConnectionString" connectionString="Data Source=DESKTOP-CM7KLCU;Initial Catalog=QuizzDatabase;Integrated Security=True;" providerName="System.Data.SqlClient" /> -->  <!--Jonathan Home-->
+    <add name="ConnectionString" connectionString="Data Source=UTILISA-MCTDAAB\SQLEXPRESS;Initial Catalog=QuizzDatabase;Integrated Security=True;" providerName="System.Data.SqlClient" />   <!-- Amine-->
+    <!--<add name="ConnectionString" connectionString="Data Source=AMINE;Initial Catalog=QuizzDatabase;Integrated Security=True;" providerName="System.Data.SqlClient" />-->    <!--Amine home-->
+    <!-- <add name="ConnectionString" connectionString="Data Source=DESKTOP-CM7KLCU;Initial Catalog=QuizzDatabase;Integrated Security=True;" providerName="System.Data.SqlClient" /> -->  <!-- Nathalie-->
+    <!-- <add name="ConnectionString" connectionString="Data Source=DESKTOP-CM7KLCU;Initial Catalog=QuizzDatabase;Integrated Security=True;" providerName="System.Data.SqlClient" /> -->  <!-- Nathalie Home-->
+    <!-- <add name="ConnectionString" connectionString="Data Source=DESKTOP-CM7KLCU;Initial Catalog=QuizzDatabase;Integrated Security=True;" providerName="System.Data.SqlClient" /> -->  <!-- Pauline-->
+     <add name="ConnectionString" connectionString="Data Source=UTILISA-PFCSKJJ\SQLEXPRESS;Initial Catalog=QuizzDatabase;Integrated Security=True;" providerName="System.Data.SqlClient" />   <!-- Pauline Home-->
+  </connectionStrings>
+</configuration>
